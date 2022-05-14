@@ -1,0 +1,41 @@
+body{
+
+background-color: bisque;
+
+}
+
+#heading{
+
+font-size: 20px;
+
+}
+h3{
+
+    font-size: 25px !important;
+    border-radius: 20px;
+    
+    }
+    
+    .btn-info:hover{
+    
+    background-color: rgb(111, 148, 235);
+    
+    }
+    
+canvas{
+
+
+    background-color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    border-radius: 30px;    
+    
+    }
+    @keyframes example{
+
+        from{box-shadow: 1px 1px 30px rgb(2, 75, 211);}
+        to{box-shadow: 1px 1px 38px rgb(109, 245, 116);}
+        
+        }
