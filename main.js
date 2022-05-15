@@ -26,7 +26,7 @@ if(results.length > 0){
 console.log(results);
 
 nx= results[0].pose.nose.x - 20;
-ny= results[0].pose.nose.y - 20;
+ny= results[0].pose.nose.y + 15;
 
 }
 
